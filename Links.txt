@@ -1,0 +1,601 @@
+| \(index\) | name | url |
+| --- | --- | --- |
+| 28 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2026\-08\.parquet' |
+| 24 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2026\-07\.parquet' |
+| 20 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2026\-06\.parquet' |
+| 16 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2026\-05\.parquet' |
+| 12 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2026\-04\.parquet' |
+| 8 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2026\-03\.parquet' |
+| 4 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2026\-02\.parquet' |
+| 0 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2026\-01\.parquet' |
+| 75 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2025\-12\.parquet' |
+| 71 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2025\-11\.parquet' |
+| 67 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2025\-10\.parquet' |
+| 63 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2025\-09\.parquet' |
+| 59 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2025\-08\.parquet' |
+| 55 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2025\-07\.parquet' |
+| 51 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2025\-06\.parquet' |
+| 47 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2025\-05\.parquet' |
+| 43 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2025\-04\.parquet' |
+| 39 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2025\-03\.parquet' |
+| 35 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2025\-02\.parquet' |
+| 31 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2025\-01\.parquet' |
+| 123 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2024\-12\.parquet' |
+| 119 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2024\-11\.parquet' |
+| 115 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2024\-10\.parquet' |
+| 111 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2024\-09\.parquet' |
+| 107 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2024\-08\.parquet' |
+| 103 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2024\-07\.parquet' |
+| 99 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2024\-06\.parquet' |
+| 95 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2024\-05\.parquet' |
+| 91 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2024\-04\.parquet' |
+| 87 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2024\-03\.parquet' |
+| 83 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2024\-02\.parquet' |
+| 79 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2024\-01\.parquet' |
+| 171 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2023\-12\.parquet' |
+| 167 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2023\-11\.parquet' |
+| 163 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2023\-10\.parquet' |
+| 159 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2023\-09\.parquet' |
+| 155 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2023\-08\.parquet' |
+| 151 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2023\-07\.parquet' |
+| 147 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2023\-06\.parquet' |
+| 143 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2023\-05\.parquet' |
+| 139 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2023\-04\.parquet' |
+| 135 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2023\-03\.parquet' |
+| 131 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2023\-02\.parquet' |
+| 127 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2023\-01\.parquet' |
+| 219 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2022\-12\.parquet' |
+| 215 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2022\-11\.parquet' |
+| 211 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2022\-10\.parquet' |
+| 207 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2022\-09\.parquet' |
+| 203 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2022\-08\.parquet' |
+| 199 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2022\-07\.parquet' |
+| 195 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2022\-06\.parquet' |
+| 191 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2022\-05\.parquet' |
+| 187 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2022\-04\.parquet' |
+| 183 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2022\-03\.parquet' |
+| 179 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2022\-02\.parquet' |
+| 175 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2022\-01\.parquet' |
+| 267 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2021\-12\.parquet' |
+| 263 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2021\-11\.parquet' |
+| 259 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2021\-10\.parquet' |
+| 255 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2021\-09\.parquet' |
+| 251 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2021\-08\.parquet' |
+| 247 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2021\-07\.parquet' |
+| 243 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2021\-06\.parquet' |
+| 239 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2021\-05\.parquet' |
+| 235 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2021\-04\.parquet' |
+| 231 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2021\-03\.parquet' |
+| 227 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2021\-02\.parquet' |
+| 223 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2021\-01\.parquet' |
+| 315 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2020\-12\.parquet' |
+| 311 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2020\-11\.parquet' |
+| 307 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2020\-10\.parquet' |
+| 303 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2020\-09\.parquet' |
+| 299 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2020\-08\.parquet' |
+| 295 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2020\-07\.parquet' |
+| 291 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2020\-06\.parquet' |
+| 287 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2020\-05\.parquet' |
+| 283 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2020\-04\.parquet' |
+| 279 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2020\-03\.parquet' |
+| 275 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2020\-02\.parquet' |
+| 271 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2020\-01\.parquet' |
+| 362 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2019\-12\.parquet' |
+| 358 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2019\-11\.parquet' |
+| 354 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2019\-10\.parquet' |
+| 350 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2019\-09\.parquet' |
+| 346 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2019\-08\.parquet' |
+| 342 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2019\-07\.parquet' |
+| 338 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2019\-06\.parquet' |
+| 334 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2019\-05\.parquet' |
+| 330 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2019\-04\.parquet' |
+| 326 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2019\-03\.parquet' |
+| 322 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2019\-02\.parquet' |
+| 319 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2019\-01\.parquet' |
+| 399 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2018\-12\.parquet' |
+| 396 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2018\-11\.parquet' |
+| 393 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2018\-10\.parquet' |
+| 390 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2018\-09\.parquet' |
+| 387 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2018\-08\.parquet' |
+| 384 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2018\-07\.parquet' |
+| 381 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2018\-06\.parquet' |
+| 378 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2018\-05\.parquet' |
+| 375 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2018\-04\.parquet' |
+| 372 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2018\-03\.parquet' |
+| 369 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2018\-02\.parquet' |
+| 366 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2018\-01\.parquet' |
+| 435 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2017\-12\.parquet' |
+| 432 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2017\-11\.parquet' |
+| 429 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2017\-10\.parquet' |
+| 426 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2017\-09\.parquet' |
+| 423 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2017\-08\.parquet' |
+| 420 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2017\-07\.parquet' |
+| 417 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2017\-06\.parquet' |
+| 414 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2017\-05\.parquet' |
+| 411 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2017\-04\.parquet' |
+| 408 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2017\-03\.parquet' |
+| 405 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2017\-02\.parquet' |
+| 402 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2017\-01\.parquet' |
+| 471 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2016\-12\.parquet' |
+| 468 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2016\-11\.parquet' |
+| 465 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2016\-10\.parquet' |
+| 462 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2016\-09\.parquet' |
+| 459 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2016\-08\.parquet' |
+| 456 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2016\-07\.parquet' |
+| 453 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2016\-06\.parquet' |
+| 450 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2016\-05\.parquet' |
+| 447 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2016\-04\.parquet' |
+| 444 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2016\-03\.parquet' |
+| 441 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2016\-02\.parquet' |
+| 438 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2016\-01\.parquet' |
+| 507 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2015\-12\.parquet' |
+| 504 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2015\-11\.parquet' |
+| 501 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2015\-10\.parquet' |
+| 498 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2015\-09\.parquet' |
+| 495 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2015\-08\.parquet' |
+| 492 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2015\-07\.parquet' |
+| 489 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2015\-06\.parquet' |
+| 486 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2015\-05\.parquet' |
+| 483 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2015\-04\.parquet' |
+| 480 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2015\-03\.parquet' |
+| 477 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2015\-02\.parquet' |
+| 474 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2015\-01\.parquet' |
+| 532 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2014\-12\.parquet' |
+| 530 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2014\-11\.parquet' |
+| 528 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2014\-10\.parquet' |
+| 526 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2014\-09\.parquet' |
+| 524 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2014\-08\.parquet' |
+| 522 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2014\-07\.parquet' |
+| 520 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2014\-06\.parquet' |
+| 518 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2014\-05\.parquet' |
+| 516 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2014\-04\.parquet' |
+| 514 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2014\-03\.parquet' |
+| 512 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2014\-02\.parquet' |
+| 510 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2014\-01\.parquet' |
+| 549 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2013\-12\.parquet' |
+| 547 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2013\-11\.parquet' |
+| 545 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2013\-10\.parquet' |
+| 543 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2013\-09\.parquet' |
+| 541 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2013\-08\.parquet' |
+| 540 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2013\-07\.parquet' |
+| 539 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2013\-06\.parquet' |
+| 538 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2013\-05\.parquet' |
+| 537 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2013\-04\.parquet' |
+| 536 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2013\-03\.parquet' |
+| 535 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2013\-02\.parquet' |
+| 534 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2013\-01\.parquet' |
+| 562 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2012\-12\.parquet' |
+| 561 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2012\-11\.parquet' |
+| 560 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2012\-10\.parquet' |
+| 559 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2012\-09\.parquet' |
+| 558 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2012\-08\.parquet' |
+| 557 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2012\-07\.parquet' |
+| 556 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2012\-06\.parquet' |
+| 555 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2012\-05\.parquet' |
+| 554 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2012\-04\.parquet' |
+| 553 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2012\-03\.parquet' |
+| 552 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2012\-02\.parquet' |
+| 551 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2012\-01\.parquet' |
+| 574 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2011\-12\.parquet' |
+| 573 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2011\-11\.parquet' |
+| 572 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2011\-10\.parquet' |
+| 571 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2011\-09\.parquet' |
+| 570 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2011\-08\.parquet' |
+| 569 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2011\-07\.parquet' |
+| 568 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2011\-06\.parquet' |
+| 567 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2011\-05\.parquet' |
+| 566 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2011\-04\.parquet' |
+| 565 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2011\-03\.parquet' |
+| 564 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2011\-02\.parquet' |
+| 563 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2011\-01\.parquet' |
+| 586 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2010\-12\.parquet' |
+| 585 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2010\-11\.parquet' |
+| 584 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2010\-10\.parquet' |
+| 583 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2010\-09\.parquet' |
+| 582 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2010\-08\.parquet' |
+| 581 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2010\-07\.parquet' |
+| 580 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2010\-06\.parquet' |
+| 579 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2010\-05\.parquet' |
+| 578 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2010\-04\.parquet' |
+| 577 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2010\-03\.parquet' |
+| 576 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2010\-02\.parquet' |
+| 575 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2010\-01\.parquet' |
+| 598 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2009\-12\.parquet' |
+| 597 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2009\-11\.parquet' |
+| 596 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2009\-10\.parquet' |
+| 595 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2009\-09\.parquet' |
+| 594 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2009\-08\.parquet' |
+| 593 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2009\-07\.parquet' |
+| 592 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2009\-06\.parquet' |
+| 591 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2009\-05\.parquet' |
+| 590 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2009\-04\.parquet' |
+| 589 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2009\-03\.parquet' |
+| 588 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2009\-02\.parquet' |
+| 587 | 'Yellow Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/yellow\_tripdata\_2009\-01\.parquet' |
+| 29 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2026\-08\.parquet' |
+| 25 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2026\-07\.parquet' |
+| 21 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2026\-06\.parquet' |
+| 17 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2026\-05\.parquet' |
+| 13 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2026\-04\.parquet' |
+| 9 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2026\-03\.parquet' |
+| 5 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2026\-02\.parquet' |
+| 1 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2026\-01\.parquet' |
+| 76 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2025\-12\.parquet' |
+| 72 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2025\-11\.parquet' |
+| 68 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2025\-10\.parquet' |
+| 64 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2025\-09\.parquet' |
+| 60 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2025\-08\.parquet' |
+| 56 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2025\-07\.parquet' |
+| 52 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2025\-06\.parquet' |
+| 48 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2025\-05\.parquet' |
+| 44 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2025\-04\.parquet' |
+| 40 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2025\-03\.parquet' |
+| 36 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2025\-02\.parquet' |
+| 32 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2025\-01\.parquet' |
+| 124 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2024\-12\.parquet' |
+| 120 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2024\-11\.parquet' |
+| 116 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2024\-10\.parquet' |
+| 112 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2024\-09\.parquet' |
+| 108 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2024\-08\.parquet' |
+| 104 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2024\-07\.parquet' |
+| 100 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2024\-06\.parquet' |
+| 96 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2024\-05\.parquet' |
+| 92 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2024\-04\.parquet' |
+| 88 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2024\-03\.parquet' |
+| 84 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2024\-02\.parquet' |
+| 80 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2024\-01\.parquet' |
+| 172 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2023\-12\.parquet' |
+| 168 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2023\-11\.parquet' |
+| 164 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2023\-10\.parquet' |
+| 160 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2023\-09\.parquet' |
+| 156 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2023\-08\.parquet' |
+| 152 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2023\-07\.parquet' |
+| 148 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2023\-06\.parquet' |
+| 144 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2023\-05\.parquet' |
+| 140 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2023\-04\.parquet' |
+| 136 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2023\-03\.parquet' |
+| 132 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2023\-02\.parquet' |
+| 128 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2023\-01\.parquet' |
+| 220 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2022\-12\.parquet' |
+| 216 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2022\-11\.parquet' |
+| 212 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2022\-10\.parquet' |
+| 208 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2022\-09\.parquet' |
+| 204 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2022\-08\.parquet' |
+| 200 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2022\-07\.parquet' |
+| 196 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2022\-06\.parquet' |
+| 192 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2022\-05\.parquet' |
+| 188 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2022\-04\.parquet' |
+| 184 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2022\-03\.parquet' |
+| 180 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2022\-02\.parquet' |
+| 176 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2022\-01\.parquet' |
+| 268 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2021\-12\.parquet' |
+| 264 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2021\-11\.parquet' |
+| 260 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2021\-10\.parquet' |
+| 256 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2021\-09\.parquet' |
+| 252 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2021\-08\.parquet' |
+| 248 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2021\-07\.parquet' |
+| 244 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2021\-06\.parquet' |
+| 240 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2021\-05\.parquet' |
+| 236 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2021\-04\.parquet' |
+| 232 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2021\-03\.parquet' |
+| 228 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2021\-02\.parquet' |
+| 224 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2021\-01\.parquet' |
+| 316 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2020\-12\.parquet' |
+| 312 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2020\-11\.parquet' |
+| 308 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2020\-10\.parquet' |
+| 304 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2020\-09\.parquet' |
+| 300 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2020\-08\.parquet' |
+| 296 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2020\-07\.parquet' |
+| 292 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2020\-06\.parquet' |
+| 288 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2020\-05\.parquet' |
+| 284 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2020\-04\.parquet' |
+| 280 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2020\-03\.parquet' |
+| 276 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2020\-02\.parquet' |
+| 272 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2020\-01\.parquet' |
+| 363 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2019\-12\.parquet' |
+| 359 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2019\-11\.parquet' |
+| 355 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2019\-10\.parquet' |
+| 351 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2019\-09\.parquet' |
+| 347 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2019\-08\.parquet' |
+| 343 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2019\-07\.parquet' |
+| 339 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2019\-06\.parquet' |
+| 335 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2019\-05\.parquet' |
+| 331 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2019\-04\.parquet' |
+| 327 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2019\-03\.parquet' |
+| 323 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2019\-02\.parquet' |
+| 320 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2019\-01\.parquet' |
+| 400 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2018\-12\.parquet' |
+| 397 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2018\-11\.parquet' |
+| 394 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2018\-10\.parquet' |
+| 391 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2018\-09\.parquet' |
+| 388 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2018\-08\.parquet' |
+| 385 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2018\-07\.parquet' |
+| 382 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2018\-06\.parquet' |
+| 379 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2018\-05\.parquet' |
+| 376 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2018\-04\.parquet' |
+| 373 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2018\-03\.parquet' |
+| 370 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2018\-02\.parquet' |
+| 367 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2018\-01\.parquet' |
+| 436 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2017\-12\.parquet' |
+| 433 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2017\-11\.parquet' |
+| 430 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2017\-10\.parquet' |
+| 427 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2017\-09\.parquet' |
+| 424 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2017\-08\.parquet' |
+| 421 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2017\-07\.parquet' |
+| 418 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2017\-06\.parquet' |
+| 415 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2017\-05\.parquet' |
+| 412 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2017\-04\.parquet' |
+| 409 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2017\-03\.parquet' |
+| 406 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2017\-02\.parquet' |
+| 403 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2017\-01\.parquet' |
+| 472 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2016\-12\.parquet' |
+| 469 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2016\-11\.parquet' |
+| 466 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2016\-10\.parquet' |
+| 463 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2016\-09\.parquet' |
+| 460 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2016\-08\.parquet' |
+| 457 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2016\-07\.parquet' |
+| 454 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2016\-06\.parquet' |
+| 451 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2016\-05\.parquet' |
+| 448 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2016\-04\.parquet' |
+| 445 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2016\-03\.parquet' |
+| 442 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2016\-02\.parquet' |
+| 439 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2016\-01\.parquet' |
+| 508 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2015\-12\.parquet' |
+| 505 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2015\-11\.parquet' |
+| 502 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2015\-10\.parquet' |
+| 499 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2015\-09\.parquet' |
+| 496 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2015\-08\.parquet' |
+| 493 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2015\-07\.parquet' |
+| 490 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2015\-06\.parquet' |
+| 487 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2015\-05\.parquet' |
+| 484 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2015\-04\.parquet' |
+| 481 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2015\-03\.parquet' |
+| 478 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2015\-02\.parquet' |
+| 475 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2015\-01\.parquet' |
+| 533 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2014\-12\.parquet' |
+| 531 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2014\-11\.parquet' |
+| 529 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2014\-10\.parquet' |
+| 527 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2014\-09\.parquet' |
+| 525 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2014\-08\.parquet' |
+| 523 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2014\-07\.parquet' |
+| 521 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2014\-06\.parquet' |
+| 519 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2014\-05\.parquet' |
+| 517 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2014\-04\.parquet' |
+| 515 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2014\-03\.parquet' |
+| 513 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2014\-02\.parquet' |
+| 511 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2014\-01\.parquet' |
+| 550 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2013\-12\.parquet' |
+| 548 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2013\-11\.parquet' |
+| 546 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2013\-10\.parquet' |
+| 544 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2013\-09\.parquet' |
+| 542 | 'Green Taxi Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/green\_tripdata\_2013\-08\.parquet' |
+| 30 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2026\-08\.parquet' |
+| 27 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2026\-07\.parquet' |
+| 23 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2026\-06\.parquet' |
+| 19 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2026\-05\.parquet' |
+| 15 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2026\-04\.parquet' |
+| 11 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2026\-03\.parquet' |
+| 7 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2026\-02\.parquet' |
+| 3 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2026\-01\.parquet' |
+| 78 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2025\-12\.parquet' |
+| 74 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2025\-11\.parquet' |
+| 70 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2025\-10\.parquet' |
+| 66 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2025\-09\.parquet' |
+| 62 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2025\-08\.parquet' |
+| 58 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2025\-07\.parquet' |
+| 54 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2025\-06\.parquet' |
+| 50 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2025\-05\.parquet' |
+| 46 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2025\-04\.parquet' |
+| 42 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2025\-03\.parquet' |
+| 38 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2025\-02\.parquet' |
+| 34 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2025\-01\.parquet' |
+| 126 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2024\-12\.parquet' |
+| 122 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2024\-11\.parquet' |
+| 118 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2024\-10\.parquet' |
+| 114 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2024\-09\.parquet' |
+| 110 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2024\-08\.parquet' |
+| 106 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2024\-07\.parquet' |
+| 102 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2024\-06\.parquet' |
+| 98 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2024\-05\.parquet' |
+| 94 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2024\-04\.parquet' |
+| 90 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2024\-03\.parquet' |
+| 86 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2024\-02\.parquet' |
+| 82 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2024\-01\.parquet' |
+| 174 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2023\-12\.parquet' |
+| 170 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2023\-11\.parquet' |
+| 166 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2023\-10\.parquet' |
+| 162 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2023\-09\.parquet' |
+| 158 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2023\-08\.parquet' |
+| 154 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2023\-07\.parquet' |
+| 150 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2023\-06\.parquet' |
+| 146 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2023\-05\.parquet' |
+| 142 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2023\-04\.parquet' |
+| 138 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2023\-03\.parquet' |
+| 134 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2023\-02\.parquet' |
+| 130 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2023\-01\.parquet' |
+| 222 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2022\-12\.parquet' |
+| 218 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2022\-11\.parquet' |
+| 214 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2022\-10\.parquet' |
+| 210 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2022\-09\.parquet' |
+| 206 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2022\-08\.parquet' |
+| 202 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2022\-07\.parquet' |
+| 198 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2022\-06\.parquet' |
+| 194 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2022\-05\.parquet' |
+| 190 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2022\-04\.parquet' |
+| 186 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2022\-03\.parquet' |
+| 182 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2022\-02\.parquet' |
+| 178 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2022\-01\.parquet' |
+| 270 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2021\-12\.parquet' |
+| 266 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2021\-11\.parquet' |
+| 262 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2021\-10\.parquet' |
+| 258 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2021\-09\.parquet' |
+| 254 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2021\-08\.parquet' |
+| 250 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2021\-07\.parquet' |
+| 246 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2021\-06\.parquet' |
+| 242 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2021\-05\.parquet' |
+| 238 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2021\-04\.parquet' |
+| 234 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2021\-03\.parquet' |
+| 230 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2021\-02\.parquet' |
+| 226 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2021\-01\.parquet' |
+| 318 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2020\-12\.parquet' |
+| 314 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2020\-11\.parquet' |
+| 310 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2020\-10\.parquet' |
+| 306 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2020\-09\.parquet' |
+| 302 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2020\-08\.parquet' |
+| 298 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2020\-07\.parquet' |
+| 294 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2020\-06\.parquet' |
+| 290 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2020\-05\.parquet' |
+| 286 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2020\-04\.parquet' |
+| 282 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2020\-03\.parquet' |
+| 278 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2020\-02\.parquet' |
+| 274 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2020\-01\.parquet' |
+| 365 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2019\-12\.parquet' |
+| 361 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2019\-11\.parquet' |
+| 357 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2019\-10\.parquet' |
+| 353 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2019\-09\.parquet' |
+| 349 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2019\-08\.parquet' |
+| 345 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2019\-07\.parquet' |
+| 341 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2019\-06\.parquet' |
+| 337 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2019\-05\.parquet' |
+| 333 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2019\-04\.parquet' |
+| 329 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2019\-03\.parquet' |
+| 325 | 'High Volume For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhvhv\_tripdata\_2019\-02\.parquet' |
+| 26 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2026\-07\.parquet' |
+| 22 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2026\-06\.parquet' |
+| 18 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2026\-05\.parquet' |
+| 14 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2026\-04\.parquet' |
+| 10 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2026\-03\.parquet' |
+| 6 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2026\-02\.parquet' |
+| 2 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2026\-01\.parquet' |
+| 77 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2025\-12\.parquet' |
+| 73 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2025\-11\.parquet' |
+| 69 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2025\-10\.parquet' |
+| 65 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2025\-09\.parquet' |
+| 61 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2025\-08\.parquet' |
+| 57 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2025\-07\.parquet' |
+| 53 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2025\-06\.parquet' |
+| 49 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2025\-05\.parquet' |
+| 45 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2025\-04\.parquet' |
+| 41 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2025\-03\.parquet' |
+| 37 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2025\-02\.parquet' |
+| 33 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2025\-01\.parquet' |
+| 125 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2024\-12\.parquet' |
+| 121 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2024\-11\.parquet' |
+| 117 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2024\-10\.parquet' |
+| 113 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2024\-09\.parquet' |
+| 109 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2024\-08\.parquet' |
+| 105 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2024\-07\.parquet' |
+| 101 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2024\-06\.parquet' |
+| 97 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2024\-05\.parquet' |
+| 93 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2024\-04\.parquet' |
+| 89 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2024\-03\.parquet' |
+| 85 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2024\-02\.parquet' |
+| 81 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2024\-01\.parquet' |
+| 173 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2023\-12\.parquet' |
+| 169 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2023\-11\.parquet' |
+| 165 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2023\-10\.parquet' |
+| 161 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2023\-09\.parquet' |
+| 157 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2023\-08\.parquet' |
+| 153 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2023\-07\.parquet' |
+| 149 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2023\-06\.parquet' |
+| 145 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2023\-05\.parquet' |
+| 141 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2023\-04\.parquet' |
+| 137 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2023\-03\.parquet' |
+| 133 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2023\-02\.parquet' |
+| 129 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2023\-01\.parquet' |
+| 221 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2022\-12\.parquet' |
+| 217 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2022\-11\.parquet' |
+| 213 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2022\-10\.parquet' |
+| 209 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2022\-09\.parquet' |
+| 205 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2022\-08\.parquet' |
+| 201 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2022\-07\.parquet' |
+| 197 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2022\-06\.parquet' |
+| 193 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2022\-05\.parquet' |
+| 189 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2022\-04\.parquet' |
+| 185 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2022\-03\.parquet' |
+| 181 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2022\-02\.parquet' |
+| 177 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2022\-01\.parquet' |
+| 269 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2021\-12\.parquet' |
+| 265 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2021\-11\.parquet' |
+| 261 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2021\-10\.parquet' |
+| 257 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2021\-09\.parquet' |
+| 253 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2021\-08\.parquet' |
+| 249 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2021\-07\.parquet' |
+| 245 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2021\-06\.parquet' |
+| 241 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2021\-05\.parquet' |
+| 237 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2021\-04\.parquet' |
+| 233 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2021\-03\.parquet' |
+| 229 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2021\-02\.parquet' |
+| 225 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2021\-01\.parquet' |
+| 317 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2020\-12\.parquet' |
+| 313 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2020\-11\.parquet' |
+| 309 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2020\-10\.parquet' |
+| 305 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2020\-09\.parquet' |
+| 301 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2020\-08\.parquet' |
+| 297 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2020\-07\.parquet' |
+| 293 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2020\-06\.parquet' |
+| 289 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2020\-05\.parquet' |
+| 285 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2020\-04\.parquet' |
+| 281 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2020\-03\.parquet' |
+| 277 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2020\-02\.parquet' |
+| 273 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2020\-01\.parquet' |
+| 364 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2019\-12\.parquet' |
+| 360 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2019\-11\.parquet' |
+| 356 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2019\-10\.parquet' |
+| 352 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2019\-09\.parquet' |
+| 348 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2019\-08\.parquet' |
+| 344 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2019\-07\.parquet' |
+| 340 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2019\-06\.parquet' |
+| 336 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2019\-05\.parquet' |
+| 332 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2019\-04\.parquet' |
+| 328 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2019\-03\.parquet' |
+| 324 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2019\-02\.parquet' |
+| 321 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2019\-01\.parquet' |
+| 401 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2018\-12\.parquet' |
+| 398 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2018\-11\.parquet' |
+| 395 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2018\-10\.parquet' |
+| 392 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2018\-09\.parquet' |
+| 389 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2018\-08\.parquet' |
+| 386 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2018\-07\.parquet' |
+| 383 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2018\-06\.parquet' |
+| 380 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2018\-05\.parquet' |
+| 377 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2018\-04\.parquet' |
+| 374 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2018\-03\.parquet' |
+| 371 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2018\-02\.parquet' |
+| 368 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2018\-01\.parquet' |
+| 437 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2017\-12\.parquet' |
+| 434 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2017\-11\.parquet' |
+| 431 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2017\-10\.parquet' |
+| 428 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2017\-09\.parquet' |
+| 425 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2017\-08\.parquet' |
+| 422 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2017\-07\.parquet' |
+| 419 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2017\-06\.parquet' |
+| 416 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2017\-05\.parquet' |
+| 413 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2017\-04\.parquet' |
+| 410 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2017\-03\.parquet' |
+| 407 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2017\-02\.parquet' |
+| 404 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2017\-01\.parquet' |
+| 473 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2016\-12\.parquet' |
+| 470 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2016\-11\.parquet' |
+| 467 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2016\-10\.parquet' |
+| 464 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2016\-09\.parquet' |
+| 461 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2016\-08\.parquet' |
+| 458 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2016\-07\.parquet' |
+| 455 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2016\-06\.parquet' |
+| 452 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2016\-05\.parquet' |
+| 449 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2016\-04\.parquet' |
+| 446 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2016\-03\.parquet' |
+| 443 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2016\-02\.parquet' |
+| 440 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2016\-01\.parquet' |
+| 509 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2015\-12\.parquet' |
+| 506 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2015\-11\.parquet' |
+| 503 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2015\-10\.parquet' |
+| 500 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2015\-09\.parquet' |
+| 497 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2015\-08\.parquet' |
+| 494 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2015\-07\.parquet' |
+| 491 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2015\-06\.parquet' |
+| 488 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2015\-05\.parquet' |
+| 485 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2015\-04\.parquet' |
+| 482 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2015\-03\.parquet' |
+| 479 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2015\-02\.parquet' |
+| 476 | 'For\-Hire Vehicle Trip Records' | 'https://d37ci6vzurychx\.cloudfront\.net/trip\-data/fhv\_tripdata\_2015\-01\.parquet' |

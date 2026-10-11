@@ -1,4 +1,3 @@
-
 from __future__ import annotations
 
 import argparse
@@ -14,6 +13,7 @@ REPORT_DIR = PROJECT_ROOT / "reports" / "schema_drift"
 
 
 def load_manifest() -> dict[str, dict]:
+    """Load successfully inventoried batches, indexed by filename."""
     if not MANIFEST_PATH.exists():
         raise FileNotFoundError(
             f"Manifest not found: {MANIFEST_PATH}. "
@@ -25,31 +25,37 @@ def load_manifest() -> dict[str, dict]:
     ) as file:
         records = list(csv.DictReader(file))
 
-    manifest = {}
-
-    for record in records:
-        if record.get("status") == "SUCCESS":
-            manifest[record["file_name"]] = record
-
-    return manifest
+    return {
+        record["file_name"]: record
+        for record in records
+        if record.get("status") == "SUCCESS"
+    }
 
 
 def parse_schema(schema_text: str) -> dict[str, str]:
-    """Parse the flattened Arrow schema stored in the manifest."""
-    columns = {}
+    """Parse flattened Arrow fields while excluding serialized metadata."""
+    # Pandas metadata describes serialization details, not ordinary columns.
+    schema_text = schema_text.split(
+        "-- schema metadata --", maxsplit=1
+    )[0]
+
+    columns: dict[str, str] = {}
 
     for item in schema_text.split("|"):
         item = item.strip()
-
         if not item or ":" not in item:
             continue
 
         name, data_type = item.split(":", maxsplit=1)
-        columns[name.strip()] = data_type.strip()
+        name = name.strip()
+        data_type = data_type.strip()
+        if name and data_type:
+            columns[name] = data_type
 
     if not columns:
         raise ValueError(
-            "Could not parse schema. Check the manifest schema format."
+            "Could not parse schema fields. "
+            "Check the schema format stored in the manifest."
         )
 
     return columns
@@ -61,14 +67,27 @@ def compare_schemas(
     candidate_name: str,
     candidate_schema: dict[str, str],
 ) -> dict:
+    """Compare schemas and retain data types for added and removed fields.
+
+    `added_columns` and `removed_columns` remain lists of names for backward
+    compatibility with existing reports and tests. The corresponding detail
+    fields provide types needed by downstream compatibility evaluation.
+    """
     baseline_columns = set(baseline_schema)
     candidate_columns = set(candidate_schema)
 
     added = sorted(candidate_columns - baseline_columns)
     removed = sorted(baseline_columns - candidate_columns)
-
     common_columns = baseline_columns & candidate_columns
 
+    added_details = [
+        {"column": name, "candidate_type": candidate_schema[name]}
+        for name in added
+    ]
+    removed_details = [
+        {"column": name, "baseline_type": baseline_schema[name]}
+        for name in removed
+    ]
     type_changes = [
         {
             "column": name,
@@ -88,7 +107,9 @@ def compare_schemas(
         "baseline_column_count": len(baseline_columns),
         "candidate_column_count": len(candidate_columns),
         "added_columns": added,
+        "added_column_details": added_details,
         "removed_columns": removed,
+        "removed_column_details": removed_details,
         "type_changes": type_changes,
         "schema_drift_detected": has_drift,
         "status": "DRIFT_DETECTED" if has_drift else "NO_DRIFT",
@@ -122,11 +143,8 @@ def main() -> None:
                 f"Batch not found or not successfully inventoried: {filename}"
             )
 
-    baseline_record = manifest[args.baseline]
-    candidate_record = manifest[args.candidate]
-
-    baseline_schema = parse_schema(baseline_record["schema"])
-    candidate_schema = parse_schema(candidate_record["schema"])
+    baseline_schema = parse_schema(manifest[args.baseline]["schema"])
+    candidate_schema = parse_schema(manifest[args.candidate]["schema"])
 
     result = compare_schemas(
         args.baseline,
@@ -136,7 +154,6 @@ def main() -> None:
     )
 
     REPORT_DIR.mkdir(parents=True, exist_ok=True)
-
     report_name = (
         f"{Path(args.baseline).stem}__vs__"
         f"{Path(args.candidate).stem}.json"
@@ -151,10 +168,21 @@ def main() -> None:
     print(f"Status: {result['status']}")
     print(f"Baseline columns: {result['baseline_column_count']}")
     print(f"Candidate columns: {result['candidate_column_count']}")
-    print(f"Added columns: {result['added_columns']}")
-    print(f"Removed columns: {result['removed_columns']}")
-    print(f"Type changes: {len(result['type_changes'])}")
+    print("Added columns:")
+    if result["added_column_details"]:
+        for column in result["added_column_details"]:
+            print(f"  {column['column']}: {column['candidate_type']}")
+    else:
+        print("  None")
 
+    print("Removed columns:")
+    if result["removed_column_details"]:
+        for column in result["removed_column_details"]:
+            print(f"  {column['column']}: {column['baseline_type']}")
+    else:
+        print("  None")
+
+    print(f"Type changes: {len(result['type_changes'])}")
     for change in result["type_changes"]:
         print(
             f"  {change['column']}: "
