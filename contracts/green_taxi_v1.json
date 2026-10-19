@@ -1,0 +1,97 @@
+
+{
+  "contract_name": "green_taxi",
+  "contract_version": "1.0.0",
+  "description": "Initial schema contract based on the July 2015 NYC TLC Green Taxi dataset.",
+  "source": "green_tripdata_2015-07.parquet",
+  "allow_extra_columns": true,
+  "fields": {
+    "VendorID": {
+  "expected_type": "int64",
+  "accepted_types": ["int64", "int32"],
+  "nullable": true
+},
+    "lpep_pickup_datetime": {
+      "expected_type": "timestamp[us]",
+      "nullable": true
+    },
+    "lpep_dropoff_datetime": {
+      "expected_type": "timestamp[us]",
+      "nullable": true
+    },
+"store_and_fwd_flag": {
+  "expected_type": "string",
+  "accepted_types": ["string", "large_string"],
+  "nullable": true
+} ,
+    "RatecodeID": {
+      "expected_type": "int64",
+      "nullable": true
+    },
+    "PULocationID": {
+  "expected_type": "int64",
+  "accepted_types": ["int64", "int32"],
+  "nullable": true
+},
+    "DOLocationID": {
+  "expected_type": "int64",
+  "accepted_types": ["int64", "int32"],
+  "nullable": true
+},
+    "passenger_count": {
+      "expected_type": "int64",
+      "nullable": true
+    },
+    "trip_distance": {
+      "expected_type": "double",
+      "nullable": true
+    },
+    "fare_amount": {
+      "expected_type": "double",
+      "nullable": true
+    },
+    "extra": {
+      "expected_type": "double",
+      "nullable": true
+    },
+    "mta_tax": {
+      "expected_type": "double",
+      "nullable": true
+    },
+    "tip_amount": {
+      "expected_type": "double",
+      "nullable": true
+    },
+    "tolls_amount": {
+      "expected_type": "double",
+      "nullable": true
+    },
+    "ehail_fee": {
+      "expected_type": "null",
+      "nullable": true,
+      "allow_type_evolution": true
+    },
+    "improvement_surcharge": {
+      "expected_type": "double",
+      "nullable": true
+    },
+    "total_amount": {
+      "expected_type": "double",
+      "nullable": true
+    },
+    "payment_type": {
+      "expected_type": "int64",
+      "nullable": true
+    },
+    "trip_type": {
+      "expected_type": "double",
+      "nullable": true,
+      "accepted_types": ["double", "int64"]
+    },
+    "congestion_surcharge": {
+      "expected_type": "null",
+      "nullable": true,
+      "allow_type_evolution": true
+    }
+  }
+}
